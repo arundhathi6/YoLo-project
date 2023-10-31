@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+.yolo_card{
+  width: 360px;
+  height: 790px;
+  border-radius: 16px;
+}
+
+.heading_box{
+  width: 328px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.16500000655651093px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.text_box{
+  width: 328px;
+  height: 42px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.16500000655651093px;
+  text-align: left;
+  margin-top: -16px;
+  color: #FFFFFF;
+  opacity:50%;
+}
+
+.yolo_btn {
+  width: 92px;
+  height: 100%; 
+  font-family: Poppins;
+  padding: 8px;
+  background-color: black;
+  background: 
+    linear-gradient(black, black) padding-box,
+    linear-gradient(white,black) border-box;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+}
+
+.yolo_btn:nth-child(2) {
+  width: 92px;
+  height: 100%; 
+  font-family: Poppins;
+  padding: 8px;
+  background-color: black;
+  background: 
+    linear-gradient(black, black) padding-box,
+    linear-gradient(#A90808,black) border-box;
+  color: #A90808;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+}
+   
+.text_box_1{
+  width: 149px;
+  height: 18px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.16500000655651093px;
+  text-align: left;
+  color: #FFFFFF;
+  opacity:20%;
+  text-transform: uppercase;
+  margin-bottom: 4%;
+}
+
+.cardDetail_box{
+  width: 100%;
+  background-image: url("../assets/freez.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  backdrop-filter: opacity(20%);
+}
+
+.freeze_unfreeze_txt{
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.16500000655651093px;
+  text-align: center;
+  margin-left: -50px;
+  margin-top: 5px;
+}
+
+.card_sub_div{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0
+}
+
+.card_sub_child_div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding:10px
+}
+
+.text_font{
+  font-family:'Merriweather',
+  serif; ;
+  font-size: 14px;
+  margin-top: -20px;
+}
+
+.text_expiry,.text_cvv{
+  margin-top: -20px;
+  margin-left: 30px;
+  color: rgba(255, 255, 255, 0.422);
+  width: 29px;
+  height: 15px;
+  font-family:Poppins ;
+  font-weight: 400;
+  font-size: 10px;
+  text-align: left;
+}
+
+.text_expiry1{
+  margin-left: 30px;
+  color: rgba(255, 255, 255, 0.963);
+  width: 37px;
+  height: 21px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.text_cvv {
+  margin-top: 30px;
+}
+
+.copy_div{
+  display: flex;
+  margin-top:145px ;
+  margin-left: 20px;
+}
+
+.text_copy{
+  color:#A90808;;
+  width: 73px;
+  height: 18px;
+  font-size: 12px;
+  font-weight:500;
+  line-height: 18px;
+  margin-left: 2px;
+}
+
+.upi_img{
+  width:71px;
+  height: 35px;
+  margin-left: 105px;
+  margin-top: 35px;
+}
+
+.bottom_div{
+  position: relative;
+  width:100%;
+  height:106px;
+  margin-top: 90px;
+}
+
+.botton_btns{
+  position: absolute;
+  top:30px;
+  height:80px;
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home_btn,.ginie_btn,.yolopay_btn{
+  height:42px;
+  width: 42px;
+  border-radius: 50%;
+}
+
+.bottom_text{
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: -0.16500000655651093px;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 30%;
+}
